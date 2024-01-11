@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="profile">
+            <div class="perfil">
+                <img src="assets/images/perfil_picture.jpeg">
+            </div>
+            <div class="name-logo">
+                <div class="name">
+                    <h1>Victor Alvarado</h1>
+                    <p>Software Engineer</p>
+                </div>
+                <div class="redes">
+                    <img src="assets/icons/github.svg" alt="">
+                    <img src="assets/icons/twitter.svg" alt="">
+                    <img src="assets/icons/linkedin.svg" alt="">
+                    <img src="assets/icons/youtube.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="datos">
+            <section class="datos-cont">
+            <p>7 <br>Years of work <br> experience</p>
+            <p>50+ <br> Completed</p>
+            <p>20+<br> Satisfied <br>customers</p>
+            </section>
+        </div>
+
+        <div class="buttons">
+            <button class="first-b"> Download CV <img src="assets/images/Bottom Alignment.svg" alt=""></button>
+            <button class="second-b">Contact me</button>
+        </div>
+
+        <div class="ficha">
+            <button class="port">Portfolio</button>
+            <button class="skills">Skills</button>
+        </div>
+
+        <div class="galeria">
+            <div class="cand">
+                <h1>SmarterTrading411</h1>
+                <p>Landing page of SmarterTrading411 created <br>using wordPress</p>
+                <figure class="fond" ><button id="CV"><img src="assets/icons/Link.svg" class="logo-link"></button></figure>
+            </div>
+            <img src="assets/images/mobile_app.png" class="card" alt="">
+            <img src="assets/images/kitchen.jpeg" class="card" alt="">
+            <img src="assets/images/kitchen.jpeg" class="card" alt="">
+            <img src="assets/images/mobile_app.png" class="card" alt="">
+            <img src="assets/images/issima_page.png" class="card" alt="">
+        </div>
+    </div>
+    <script>
+
+    function ventana() {
+      var popup = document.getElementById('ventana');
+      popup.style.display = 'block';
+    }
+
+    document.getElementById('CV').addEventListener('click', function() {
+      ventana();})
+    </script>
+</body>
+</html>
